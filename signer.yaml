@@ -1,6 +1,9 @@
 server:
   port: 8082
 
+security:
+  enabled: true
+
 spring:
   datasource:
     password: signer

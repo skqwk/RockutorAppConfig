@@ -1,6 +1,9 @@
 server:
   port: 8081
 
+security:
+  enabled: true
+
 spring:
   datasource:
     password: editor
