@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    password: signer
+    url: "jdbc:postgresql://localhost:5482/signer-db"
+    username: signer
+    driver-class-name: org.postgresql.Driver

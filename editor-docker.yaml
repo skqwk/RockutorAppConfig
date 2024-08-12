@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password: editor
+    url: "jdbc:postgresql://editor-db:5432/editor-db"
+    username: editor
+    driver-class-name: org.postgresql.Driver
