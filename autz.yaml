@@ -1,0 +1,9 @@
+server:
+  port: 8012
+
+spring:
+  datasource:
+    password: autz
+    url: "jdbc:postgresql://localhost:5480/autz-db"
+    username: autz
+    driver-class-name: org.postgresql.Driver
