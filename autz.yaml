@@ -3,7 +3,7 @@ server:
 
 redis:
   host: localhost
-  port: 6399
+  port: 6379
   username: autz
   password: autz
 
