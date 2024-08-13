@@ -10,6 +10,7 @@ redis:
 jwt:
   accessTokenExpirationInMinutes: 10
   refreshTokenExpirationInMinutes: 20
+  secretKey: secretKey
 
 spring:
   datasource:
