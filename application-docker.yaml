@@ -1,6 +1,6 @@
 auth:
   api:
-    url: http://auth_cont:8012
+    url: http://autz-app:8012
 
 kafka:
   enabled: true
