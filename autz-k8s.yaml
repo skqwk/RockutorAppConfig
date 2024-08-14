@@ -3,7 +3,7 @@ server:
 
 redis:
   host: autz-redis
-  port: 6543
+  port: 6379
   username: autz
   password: autz
 
