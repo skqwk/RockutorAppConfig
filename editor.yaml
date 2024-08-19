@@ -8,6 +8,8 @@ auth:
   version: "v2"
 
 eureka:
+  instance:
+    hostname: localhost
   enable:
     discovery: true
   client:
