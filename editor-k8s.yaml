@@ -4,6 +4,10 @@ server:
 security:
   enabled: true
 
+eureka:
+  enable:
+    discovery: false
+
 spring:
   datasource:
     password: editor

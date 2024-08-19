@@ -7,6 +7,10 @@ redis:
   username: autz
   password: autz
 
+eureka:
+  enable:
+    discovery: false
+
 jwt:
   accessTokenExpirationInMinutes: 10
   refreshTokenExpirationInMinutes: 20

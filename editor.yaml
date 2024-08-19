@@ -4,6 +4,16 @@ server:
 security:
   enabled: true
 
+auth:
+  version: "v2"
+
+eureka:
+  enable:
+    discovery: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
 spring:
   datasource:
     password: editor
