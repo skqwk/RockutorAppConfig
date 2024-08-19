@@ -4,6 +4,9 @@ server:
 security:
   enabled: true
 
+auth:
+  version: "v2"
+
 spring:
   datasource:
     password: signer
