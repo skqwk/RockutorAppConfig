@@ -13,7 +13,7 @@ management:
 
 auth:
   api:
-    url: http://localhost:8012
+    url: AUTZ
   expose:
     url: actuator
 
