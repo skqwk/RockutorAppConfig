@@ -19,6 +19,15 @@ auth:
   expose:
     url: actuator
 
+hystrix:
+  request:
+    threshold: 1
+  window:
+    ms: 5000
+  timeout:
+    ms: 1000
+
+
 spring:
   kafka:
     consumer:
