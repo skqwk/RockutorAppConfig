@@ -12,6 +12,8 @@ management:
         enabled: true
 
 auth:
+  hystrix:
+    enabled: true
   api:
     url: AUTZ
   app:
