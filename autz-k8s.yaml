@@ -8,6 +8,8 @@ redis:
   password: autz
 
 eureka:
+  client:
+    enabled: false
   enable:
     discovery: false
 

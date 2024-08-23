@@ -5,6 +5,8 @@ security:
   enabled: true
 
 eureka:
+  client:
+    enabled: false
   enable:
     discovery: false
 
