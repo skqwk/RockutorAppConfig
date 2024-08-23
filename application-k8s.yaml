@@ -11,7 +11,7 @@ spring:
       client:
         simple:
           instances:
-            AUTZ:
+            AUTZ[0]:
               uri: http://autz-app:8012
   jpa:
     properties:
