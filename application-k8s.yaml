@@ -2,6 +2,10 @@ auth:
   api:
     url: http://autz-app:8012
 
+AUTZ:
+  ribbon:
+    listOfServers: autz-app:8012
+
 kafka:
   enabled: true
 
